@@ -1,0 +1,22 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation';
+import Hero from '../components/Hero';
+import Mission from '../components/Mission';
+import Menu from '../components/Menu';
+import Orbit from '../components/Orbit';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+---
+
+<Layout title="Orbital | Space-Themed Restaurant | Auckland Wynyard Quarter">
+  <Navigation client:load />
+  <main>
+    <Hero client:load />
+    <Mission client:load />
+    <Menu client:load />
+    <Orbit client:load />
+    <Contact client:load />
+  </main>
+  <Footer client:load />
+</Layout>
