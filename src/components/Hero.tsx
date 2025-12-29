@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button variant="default" size="lg">
-            Book Your Launch
+            Book Your Lunch
           </Button>
           <Button variant="secondary" size="lg">
             Explore The Menu
